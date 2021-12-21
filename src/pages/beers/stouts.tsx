@@ -27,4 +27,4 @@ const StoutsBeerePage: NextPage = () => {
   )
 }
 
-export default StoutsBeerPage;
+export default StoutsBeerePage;

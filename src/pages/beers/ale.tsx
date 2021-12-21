@@ -27,4 +27,4 @@ const AleBeerePage: NextPage = () => {
   )
 }
 
-export default AleBeerPage;
+export default AleBeerePage;
