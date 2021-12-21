@@ -17,8 +17,8 @@ const StoutsBeerePage: NextPage = () => {
 
           return (
             <div key={`stouts-beer-list-${id}`}>
-              <h1>{price}</h1>
-              <p>{name}</p>
+              <h1>{name}</h1>
+              <p>{price}</p>
             </div>
           )
         })}
