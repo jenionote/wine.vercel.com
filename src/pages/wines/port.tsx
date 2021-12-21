@@ -3,7 +3,7 @@ import { useWineData } from "../../hooks/useWineData";
 import { Wine } from "../../types/Wine";
 
 const PortWinePage: NextPage = () => {
-  const { data, error } = useWineData('whites')
+  const { data, error } = useWineData('port')
 
   if (error) return <div>Failed to Loading...</div>
   if (!data) return <div>...Loading</div>
